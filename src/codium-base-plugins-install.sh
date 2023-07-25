@@ -5,11 +5,12 @@ echo "== INSTALL COMMON EXTENSIONS FOR VS CODIUM =="
 echo "=== INSTALL COMMON EXTENSIONS ==="
 codium --install-extension \
   dbaeumer.vscode-eslint \
-  streetsidesoftware.code-spell-checker \
   EditorConfig.EditorConfig \
   emilast.LogFileHighlighter \
   esbenp.prettier-vscode \
-  mechatroner.rainbow-csv
+  esbenp.prettier-vscode \
+  mechatroner.rainbow-csv \
+  streetsidesoftware.code-spell-checker
 
 echo "=== INSTALL MARKDOWN EXTENSIONS ==="
 codium --install-extension \
