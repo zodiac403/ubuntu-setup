@@ -8,7 +8,6 @@ codium --install-extension \
   EditorConfig.EditorConfig \
   emilast.LogFileHighlighter \
   esbenp.prettier-vscode \
-  esbenp.prettier-vscode \
   mechatroner.rainbow-csv \
   streetsidesoftware.code-spell-checker
 
