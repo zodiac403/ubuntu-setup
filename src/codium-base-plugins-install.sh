@@ -13,11 +13,12 @@ codium --install-extension \
 
 echo "=== INSTALL MARKDOWN EXTENSIONS ==="
 codium --install-extension \
-  huntertran.auto-markdown-toc \
-  yzane.markdown-pdf \
   bierner.markdown-preview-github-styles \
   darkriszty.markdown-table-prettify \
   DavidAnson.vscode-markdownlint \
-  marp-team.marp-vscode
+  huntertran.auto-markdown-toc \
+  marp-team.marp-vscode \
+  sugatoray.vscode-markdown-extension-pack \
+  yzane.markdown-pdf
 
 echo "== SUCCESS =="
