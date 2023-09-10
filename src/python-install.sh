@@ -17,6 +17,7 @@ pip install \
 
 echo "=== CODIUM INSTALL EXTENSIONS ==="
 codium --install-extension \
+  ms-python.isort \
   ms-python.pylint \
   ms-python.python
 
