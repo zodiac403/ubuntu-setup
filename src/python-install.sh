@@ -15,8 +15,8 @@ pip install \
   autopep8 \
   pylint
 
-echo "=== CODIUM INSTALL EXTENSIONS ==="
-codium --install-extension \
+echo "=== VSCODE INSTALL EXTENSIONS ==="
+vscode --install-extension \
   LittleFoxTeam.vscode-python-test-adapter \
   ms-python.isort \
   ms-python.pylint \

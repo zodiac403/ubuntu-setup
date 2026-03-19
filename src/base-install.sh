@@ -14,11 +14,12 @@ sudo apt install \
 sudo apt autoremove
 
 echo "=== SNAP INSTALL ==="
-sudo snap install codium --classic
-sudo snap install node --channel=18/stable --classic
+export NODE_CHANNEL="24/stable"
+sudo snap install node --channel=$NODE_CHANNEL --classic
+sudo snap install code --classic
 
 echo "=== VERIFY VERSIONS ==="
-echo "codium --version" && codium --version
+echo "vscode --version" && vscode --version
 echo "node --version" && node --version
 echo "npm --version" && npm --version
 
