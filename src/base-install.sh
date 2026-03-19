@@ -19,7 +19,7 @@ sudo snap install node --channel=$NODE_CHANNEL --classic
 sudo snap install code --classic
 
 echo "=== VERIFY VERSIONS ==="
-echo "vscode --version" && vscode --version
+echo "code --version" && code --version
 echo "node --version" && node --version
 echo "npm --version" && npm --version
 

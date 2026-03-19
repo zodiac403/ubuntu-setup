@@ -7,9 +7,9 @@ echo "=== SNAP INSTALL ==="
 sudo snap install kubectl --classic
 kubectl version --client
 
-echo "=== VSCODE INSTALL EXTENSIONS ==="
-vscode --trace-deprecation --install-extension \
+echo "=== CODE INSTALL EXTENSIONS ==="
+code --trace-deprecation --install-extension \
   ipedrazas.kubernetes-snippets \
-  redhat.vscode-yaml
+  redhat.code-yaml
 
 echo "== SUCCESS =="
